@@ -1,0 +1,52 @@
+.app {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(72, 75, 75, 0.252);
+    border: 1px solid #080808;
+    border-radius: 5%;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: #00fcac;
+    color: #000000;
+  }
+  
+  input {
+    width: 70%;
+    padding: 8px;
+    margin: 8px;
+    background-color: rgb(239, 240, 240);
+  }
+  
+  button {
+  
+    padding: 10px;
+    width: 100px;
+    margin: 8px;
+    color: hsl(240, 20%, 98%);
+    background-color:hsl(242, 81%, 67%);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #04f210;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    align-items: center;
+    background-color: rgb(246, 248, 248);
+    padding: 8px;
+    border: 1px solid #080808;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    
+  }
